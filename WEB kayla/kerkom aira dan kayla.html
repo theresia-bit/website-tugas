@@ -1,0 +1,349 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+        <title>Tugas Kelompok</title>
+        <style type="text/css">
+            body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+        </style>
+        </head>
+        
+        <body bgcolor="#928DAB">
+            
+            <a href="#akhir">Halaman terakhir</a>
+            
+            <center><h1>JARINGAN KOMPUTER DAN INTERNET</h1></center>
+            <ul><h3>Anggota Kelompok:</h3></ul>
+                <ul>
+                <ul>
+                    <li>Theresia Kayla</li>
+                    <li>Humaira Firzi</li>
+                </ul>
+                </ul>
+            
+            <ul><h2>A. Topologi Jaringan</h2></ul>
+                <ul><ul><p>Berikut adalah jenis-jenis Topologi jaringan</p></ul></ul>
+                <table align= "center" border="2" cellpadding="10" width="800px">
+                    <tr bgcolor="palevioletred">
+                        <td>NO</td>
+                        <td>Jenis Topologi Jaringan</td>
+                        <td>Gambar</td>
+                        <td>Keterangan</td>
+                    </tr>
+                    <tr bgcolor="thistle">
+                        <td>1</td>
+                        <td>BUS</td>
+                        <td><img src="bus.png" width="150" height="100" alt="bus"/></td>
+                        <td>Topologi Bus adalah topologi dimana setiap node terkoneksi melalui kabel utama atau bus atau backbone(ini sangat efisien dengan jumlah node yang tidak banyak)</td>
+                    </tr>
+                    <tr bgcolor="thistle">
+                        <td>2</td>
+                        <td>STAR</td>
+                        <td><img src="star.png" width="150" height="100" alt="star"/></td>
+                        <td>Topologi star adalah topologi dimana setiap node terkoneksi melalui node konektor pusat(topologi ini banyak dipakai karna kemudahanya) </td>
+                    </tr>
+                    <tr bgcolor="thistle">
+                        <td>3</td>
+                        <td>RING</td>
+                        <td><img src="ring.png" width="150" height="100" alt="ring"/></td>
+                        <td>Topologi ring adalah topologi dengan hubungan antar node terjadi antar satu node dengan note tetangganya dan membentuk konfigurasi lingkaran atau cincin.</td>
+                    </tr>
+                    <tr bgcolor="thistle">
+                        <td>4</td>
+                        <td>TREE</td>
+                        <td><img src="tree.png" width="150" height="100" alt="tree"/></td>            
+                        <td>Topologi Tree adalah topologi yang membentuk hubungan antar node seperti cabang pada pohon(biasa digunakan untuk pengaturan jaringan pada institusi yang memiliki hirarki)</td>
+                    </tr>
+                    <tr bgcolor="thistle">
+                        <td>5</td>
+                        <td>HYBRID</td>
+                        <td><img src="hybrid.png" width="150" height="100" alt="hybrid"/></td>
+                        <td>Topologi Hybrid adalah topologi yang menggabungkan du atau lebih topologi jaringan,seperti topologi bintang,cincin, dan mesh</td>
+                    </tr>
+                </table>
+    
+                <ul><ul><h3>Biaya Instalasi</h3></ul></ul>
+                    <ul><ul><ul><p>Topologi jaringan yang lebih kompleks cenderung membutuhkan biaya instalasi yang lebih tinggi, karena melibatkan lebih banyak waktu, kabel, dan perangkat. Jangkauan jaringan yang lebih luas memerlukan kabel lebih banyak, dan jenis kabel juga mempengaruhi biaya. Kabel fiber optic, meskipun lebih cepat dan memiliki kapasitas lebih besar, lebih mahal dibandingkan dengan kabel tembaga. Pemilihan topologi yang tepat harus mempertimbangkan kinerja jaringan, jangkauan, jumlah komputer yang terhubung, dan anggaran.</p></ul></ul></ul>
+                <ul><ul><h3>Skalabilitas</h3></ul></ul>
+                    <ul><ul><ul><p>Skalabilitas adalah faktor penting dalam memilih topologi jaringan, terutama jika ada rencana untuk memperluas jaringan di masa depan. Topologi yang mudah dimodifikasi, seperti topologi bintang, memungkinkan penambahan atau pengurangan node dengan gangguan minimal. Berbeda dengan topologi Ring, yang bisa menyebabkan seluruh jaringan tidak berfungsi saat menambah node baru. Topologi yang mudah dimodifikasi membantu menghemat waktu dan mempermudah proses instalasi.</p></ul></ul></ul>
+            
+            <ul><h2>B. Model Topologi Jaringan</h2></ul>
+                <ul><ul><h3>Model Jaringan Komputer</h3></ul></ul>
+                        <p><ul><ul><ul>konsep yang menjelaskan bagaimana komputer dapat saling berkomunikasi.</p></ul></ul></ul>
+                
+                        <ul><ul><ul><p>Berikut Komponen yang membentuknya adalah:</p></ul></ul></ul>
+                        <ul><ul><ul><ol>
+                            <li>Software</li>
+                            <li>Firmware</li>
+                            <li>Rekayasa Chip</li>
+                            <li>Hardware</li>
+                            <li>Sinyal listrik</li>
+                        </ul></ul></ul></ol>
+                        
+                        <ul><ul><ul><p>Untuk mempermudah pemahaman, jaringan komputer dikonsep dalam model berlapis (layered model), dimana setiap lapisan memiliki tugas tertentu, mirip dengan sistem tubuh manusia yang terdiri dari berbagai organ dengan fungsi spesifik.</p></ul></ul></ul>
+                        <ul><ul><ul><p>Berikut adalah arsitektur model jaringan berlapis</p></ul></ul></ul>
+                        <center><img src="MODEL lapisan.png" width="180" height="150" alt="MODEL lapisan"/></center>
+    
+                <ul><ul><h3>OSI Model</h3></ul></ul>
+                    <ul><ul><ul><p>Open System Interconnection (OSI) Model adalah model yang diciptakan oleh “International Organization for Standardization (ISO)” untuk mengatur standar protokol dan format data yang berbeda dari banyak perusahaan penyedia jaringan komputer. Model ini menggunakan model lapisan yang terdiri atas 7 lapisan, seperti tampak pada Gambar berikut:</p></ul></ul></ul>
+                    <center><img src="MODEL OSI.png" width="250" height="200" alt="Model OSI"/></center>
+                    
+                    <ul><ul><ul><p>Application Layer</p></ul></ul></ul>
+                        <ul><ul><ul><ul><p>Lapisan ini bertanggung jawab untuk menyediakan antarmuka ke pengguna aplikasi. Dengan protokol seperti hypertext transfer protocol (HTTP), file transfer protocol (FTP), domain name services (DNS)</p></ul></ul></ul></ul>
+                    <ul><ul><ul><p>Presentation Layer</p></ul></ul></ul>
+                        <ul><ul><ul><ul><p>Bertanggung jawab menerjemahkan dan mengamankan data, menggunakan protokol seperti SSL, TLS, dan RDP</p></ul></ul></ul></ul>
+                    <ul><ul><ul><p>Session Layer</p></ul></ul></ul>
+                        <ul><ul><ul><ul><p>Menangani koneksi antar komputer, mengelola sesi, dan memastikan autentikasi tidak diulang dalam waktu tertentu. Contoh protokol: NetBIOS (IBM), Point-to-point Tunneling Protocol (PPTP).</p></ul></ul></ul></ul>
+                    <ul><ul><ul><p>Transport Layer</p></ul></ul></ul>
+                        <ul><ul><ul><ul><p>Mengatur pengiriman data end-to-end, memecah data menjadi paket, memberikan nomor urut, dan memastikan daa tiba dengan benar. Contoh protokol: TCP, UDP.</p></ul></ul></ul></ul>
+                    <ul><ul><ul><p>Network Layer</p></ul></ul></ul>
+                        <ul><ul><ul><ul><p>Bertanggung Jawab atas alamat unik antar perangkat dalam jaringan. Contoh protokol: IP, ARP, ICMP.</p></ul></ul></ul></ul>
+                    <ul><ul><ul><p>Data Link Layer</p></ul></ul></ul>
+                        <ul><ul><ul><ul><p>Mengelola transfer data antar perngkat dalam satu jaringan, termasuk pengalaman MAC dan error checking. Contoh protokol: PPP</p></ul></ul></ul></ul>
+                    <ul><ul><ul><p>Physichal Layer</p></ul></ul></ul>
+                        <ul><ul><ul><ul><p>Lapisan Fisik mendefinisikan perangkat keras untuk transmisi data seperti NIC, repeater, dan hub. Lapisan ini mengatur sinkronisasi bit, arsitektur jaringan, topologi, dan pengkabelan. Tanggung jawabnya juga termasuk pengiriman data dalam bentuk bit dan encoding. Protokol yang digunakan di lapisan ini antara lain Ethernet, USB, dan Bluetooth.</p></ul></ul></ul></ul>
+    
+                <ul><ul><h3>Transmission Control Protocol/Internet Protocol (TCP/IP)</h3></ul></ul>
+                <ul><ul><ul><p>TCP/IP adalah protokol utama yang digunakan di internet, dikembangkan pada 1980-an untuk menghubungkan berbagai komputer dan jaringan. Protokol ini menggunakan IP address untuk menghubungkan sistem yang berbeda seperti Windows dan Linux. Keunggulannya adalah standar terbuka yang dapat beroperasi tanpa tergantung pada perangkat keras atau sistem operasi. TCP/IP membagi data menjadi paket kecil dan IP menambahkan alamat tujuan. Paket data dapat melewati jalur yang berbeda dengan bantuan router. Jika terjadi kerusakan, perangkat penerima akan meminta data dikirim ulang. Gateway memungkinkan jaringan berbeda berkomunikasi dengan internet.</p></ul></ul></ul>
+                
+            <ul><h2>C. Transmisi Data</h2></ul>
+                <ul><ul><p>Transmisi data adalah proses berbagi atau bertukar data antara dua objek, alat, atau sistem. Bagian penting dari komunikasi data dapat dilihat pada gambar berikut.</p></ul></ul>
+                <center><img src="pengiriman data.jpg" width="350" height="200" alt="pengiriman data"/></center>
+    
+                <ul><ul><h3>Paket Data</h3></ul></ul>
+                    <ul><ul><ul><p>Transmisi data pada jaringan komputer dan internet umumnya tidak dilakukan dalam ukuran besar untuk menghindari kendala pada kemampuan medium dan untuk memastikan keandalan pengiriman. Data dikirim dalam bentuk paket kecil yang disebut data packets atau datagram. Ukuran paket data bisa tetap atau dinamis, tergantung kebutuhan sistem, namun biasanya sekitar 64 KiB agar lebih mudah dikelola.</p></ul></ul></ul>
+    
+                <ul><ul><h3>Struktur Paket</h3></ul></ul>
+                    <ul><ul><ul><p>Paket Data terdiri dari 3 bagian utama:</p></ul></ul></ul>
+                        <ul><ul><ul><ul>
+                            <li>Packet Header: Berisi alamat tujuan dari paket saat akan dikirimkan.</li>
+                            <li>Packet Payload: Merupakan isi atau data utama yang dikirimkan dari sumber ke tujuan.</li>
+                            <li>Packet Trailer: Menandakan akhir dari paket data dan dapat berisi protokol untuk pengecekan keberhasilan pengiriman data.</li>
+                        </ul></ul></ul></ul>
+    
+                    <ul><ul><ul><p>Untuk setiap paket, packet header, berisi:</p></ul></ul></ul>
+                        <ul><ul><ul><ul>
+                            <li>Alamat IP pengirim</li>
+                            <li>Alamat IP penerima (tujuan)</li>
+                            <li>Urutan paket yang digunakan untuk penyusunan kembali paket saat sampai di tujuan</li>
+                            <li>Ukuran paket yang digunakan untuk menentukan apakah paket utuh ketika sampai di node, termasuk juga informasi banyaknya paket yang ditransmisikan.</li>
+                        </ul></ul></ul></ul>
+    
+                    <ul><ul><ul><p>Lalu untuk Packet payload berisi:</p></ul></ul></ul>
+                        <ul><ul><ul><ul>
+                            <li>Data aktual yang dikirimkan yang biasanya sebesar 64KiB.</li>
+                        </ul></ul></ul></ul>
+    
+                    <ul><ul><ul><p>Dan terakhir Packet trailer berisi:</p></ul></ul></ul>
+                        <ul><ul><ul><ul>
+                            <li>Cara untuk mengidentifikasi akhir paket</li>
+                            <li>Cara untuk mengecek kesalahan pengiriman, beberapa cara antara lain Cyclic Redundancy Check (CRC), checksum, dll. </li>
+                        </ul></ul></ul></ul>
+    
+                <ul><ul><ol>
+                    <h4><li>Packet Switching</li></h4>
+    
+                        <p>Packet switching adalah salah satu cara transmisi paket data yang paling banyak digunakan, dimana data akan dipecah ke dalam beberapa paket data dan dikirimkan secara independen dari titik awal ke titik tujuan.</p>
+                
+                        <p>misalnya kalian sedang mengirimkan sebuah surel yang berisi foto kalian dari laptop kalian ke ponsel milik teman kalian. Surel dan foto tersebut akan dipecah dalam beberapa paket data sebelum dikirimkan. Paket-paket data akan dikirim melalui jalur atau rute dari komputer A ke komputer B, melalui node yang bisa berupa router, switch, komputer, dan lain sebagainya.</p>
+                
+                        <p>Berikut gambar jalur pengiriman paket data dari komputer A ke komputer B:</p>
+                        <center><img src="jalur.jpg" width="350" height="200" alt="jalur"/></center>
+                
+                        <p>Berikut gambar pergerakan pengiriman paket data dari komputer A ke Komputer B:</p>
+                        <center><img src="pengiriman.jpg" width="350" height="200" alt="pengiriman"/></center>
+                
+                        <p>Berikut adalah kelebihan dan kekurangan paket switching:</p>
+                            <table align= "center" border="2" cellpadding="10" width="800px">
+                                <tr>
+                                    <td>No</td>
+                                    <td>Kelebihan</td>
+                                    <td>Kekurangan</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Paket data dapat dikirimkan dari sumber ke tujuan tanpa jalur khusus (dedicated channel)</td>
+                                    <td>Paket data bisa hilang dan harus dikirimkan kembali</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Kegagalan pengiriman rendah, karena router dapat melakukan pengiriman ulang (rerouting) paket jika terjadi kegagalan</td>
+                                    <td>Proses menyusun kembali paket data yang membutuhkan waktu</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Banyak user bisa menggunakan jaringan yang sama</td>
+                                    <td>Adanya delay (jeda) dan rentan terhadap error sehingga sulit digunakan untuk pengiriman data yang cepat dan berkualitas tinggi seperti voice call</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Memungkinkan pengiriman data kecepatan tinggi</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+    
+                    <h4><li>Deteksi dan Perbaikan Kesalahan</li></h4>
+    
+                        <p>Adapun bentuk-bentuk kesalahan yang dapat terjadi pada pengiriman data yaitu</p>
+                        <center><img src="kesalahan.png" width="350" height="200" alt="Kesalahan"/></center>
+    
+                        <p>Kesalahan yang terjadi pada proses pengiriman data tersebut dapat dikendalikan dengan dua cara yaitu:</p>
+                        
+                            <ol type="a">
+                                <li>Pendeteksi Kesalahan</li>
+                                    <p>Beberapa cara kesalahan pada pengiriman data, diantaranya yaitu:</p>
+                                        <ol>
+                                            <li>Parity Check</li>
+                                                <p>Adalah salah satu meode untuk mengecek apakah data yang ditransmisikan sesuai dengan aslinya. Parity check berguna ketika kesalahan pengiriman data hanya muncul pada satu bit, namun ketika kesalahan terjadi pada dua bit data, maka parity check tidak dapat mendeteksinya</p>
+                                            <li>Checksum</li>
+                                                <p>Checksum adalah metode yang digunakan untuk mengecek apakah data yang dikirimkan pada saat transmisi berubah atau corrupted.</p>
+                                        </ol>
+                            
+                                <li>Perbaikan Kesalahan</li>
+                                    <p>Adapun metode perbaikan kesalahan ini dapat dilakukan dengan dua cara, yaitu:</p>
+                                        <ol>
+                                            <li>Backward Error Correction</li>
+                                                <p>Backward Error Correction adalah cara perbaikan kesalahan dengan cara permintaan kembali pengiriman data dari pengirim ketika data dideteksi adanya kesalahan. Misalnya jika koneksi menggunakan serat optik maka pengiriman data mudah dilakukan namun jika pengiriman data menggunakan perangkat nirkabel maka cara ini tidak efektif.</p>
+                                            <li>Forward Error Correction</li>
+                                                <p>Forward Error Correction adalah cara perbaikan kesalahan dengan menggunakan algoritma perbaikan kesalahan untuk mengembalikan data yang corrupted. Untuk dapat melakukan perbaikan kesalahan, penerima data harus mengetahui secara persis bit mana yang corrupted dengan menggunakan parity bit sebagai salah satu cara. </p>
+                                        </ol>
+                            </ol>
+                            
+                    <h4><li>Transmisi Digital dan Analog</li></h4>
+                        <p>Data analog dan digital direpresentasikan dalam bentuk sinyal digital ataupun sinyal analog ketika akan ditransmisikan :</p>
+                            <ul type="circle">
+                                <p><li>Sinyal Analog adalah sinyal yang bersifat gelombang kontinu (continuous) yang direpresentasikan dengan gelombang kontinu elektromagnetik untuk sinyal analog elektris. Gerak mekanik, pneumatis, dll. juga bisa disebut dengan sinyal analog.</li></p>
+                                <p><li>Sinyal Digital adalah sinyal yang bersifat diskrit dan dapat digambarkan seperti tangga naik turun. Sinyal digital digunakan pada komputer, sinyal televisi digital, sinyal satelit, dll. Sinyal digital memiliki sifat yang tahan terhadap gangguan (noise).</li></p>
+                            </ul>
+                        
+                            <ul>
+                                <p>Ketika sinyal terkirim, sinyal sering kali menurun kualitasnya. Penurunan kualitas disebabkan oleh beberapa hal, seperti:</p>
+                                    <ol>
+                                        <p><li>Delay distortion (distorsi kelambatan): yaitu penurunan kualitas yang disebabkan oleh keterlambatan/terlalu cepat nya data terkirim.</li></p>
+                                        <p><li> Attenuation (atenuasi): yaitu penurunan kualitas sinyal yang bisa berasal dari amplitudonya, atau arus listrik yang berkurang, dll.</li></p>
+                                        <li>Noise (derau): yaitu gangguan yang terjadi secara acak terhadap sinyal analog atau digital yang dapat menyebabkan berkurangnya kualitas sinyal. Terdapat beberapa jenis derau, yaitu: </li>
+                                            <ol type="a">
+                                                <li>Thermal Noise: Derau karena suhu yang mempengaruhi sifat konduktif dari medium pengiriman</li>
+                                                <li>Intermodulation: Derau yang terjadi karena penggunaan medium pengiriman secara bersama oleh banyak frekuensi.</li>
+                                                <li>Crosstalk: Derau yang terjadi karena masuknya sinyal asing ke medium pengiriman data.</li>
+                                                <li>Impulse: Derau yang terjadi karena gangguan insidental seperti petir, tegangan listrik yang tidak biasa, dan kegagalan komponen. Sinyal digital adalah sinyal yang rentan terhadap gangguan derau ini</li>
+                                            </ol>
+                                    </ol>
+                            </ul>
+    
+                            <p>Media transmisi terbagi menjadi dua jenis yaitu:</p>
+                                <ul type="circle">
+                                    <li>Guided media (Terbimbing) mencakup kabel UTP, kabel coaxial, power line, dan serat optik yang menghubungkan pengirim dan penerima secara langsung. power line menggunakan kabel listrik untuk mengirimkan sinyal.</li>
+                                    <li>Unguided media (Tak terbimbing) menggunakan udara untuk mengirimkan data secara wireless.</li>
+                                </ul>
+    
+                            <p>Setiap media memiliki kapasitas kanal (channel capacity), yaitu kecepatan pengiriman data yang bergantung pada tiga faktor yaitu:</p>
+                                <ol>
+                                    <li>Bandwidth : kapasitas fisik media, misalnya kabel UTP CAT7 dapata mencapai 10 Gbps hingga 100 meter, sedangkan serat optik hingga 200 Gbpsdengan panjang 80 km.</li>
+                                    <li>Error-rate : frekuensi kesalahan pengiriman akibat gangguan.</li>
+                                    <li>Encoding : metode pengkodean sinyal untuk pengiriman data.</li>
+                                </ol>
+                
+                            <p>Macam-macam transmisi</p>
+                                <ol type="a">
+                                    <li>Transmisi Digital</li>
+                                        <p>Transmisi digital adalah proses pengiriman data dalam bentuk digital. Data dapat berupa analog atau digital, tetapi di komputer, data berbentuk diskrit digital. Untuk mengirimkan data secara digital, diperlukan konversi data ke bentuk digital. Data digital adalah data dalam bentuk biner 0 dan 1 yang membentuk deretan (urutan). Sinyal digital akan merepresentasikan data digital dalam bentuk data diskret, seperti tampak pada gambar</p>
+                                        <center><img src="transmigrasi data.png" width="350" height="200" alt="transmigrasi data"/></center>
+
+                                    <ul>
+                                        <ol type="1">
+                                            <li>Line Coding</li>
+                                                <p>Line Coding adalah transmisi data dengan mengkonversi data digital menjadi sinyal digital. tiga cara untuk merepresentasikan data digital menjadi sinyal digital, yaitu dengan cara encoding unipolar, polar, atau bipolar.</p>
+
+                                                <ol type="a">
+                                                    <li>Unipolar Encoding </li>
+                                                        <p>Unipolar Encoding adalah cara pengkodean sinyal dengan merepresentasikan data dengan menggunakan level tegangan tunggal (single voltage level). Bilangan biner 1 akan direpresentasikan dengan tegangan tinggi, dan bilangan biner 0 direpresentasikan dengan tanpa tegangan. Unipolar encoding juga disebut dengan Unipolar-Non-Return-To-Zero.</p>
+                                                        <center><img src="unpopular .png" width="350" height="200" alt="unipolar"/></center>
+
+                                                    <li>Polar Encoding</li>
+                                                        <p>Polar Encoding adalah metode pengkodean sinyal dengan beberapa tingkat tegangan untuk merepresentasikan biner. Terdiri dari NRZ, RZ, Manchester, dan Differential Manchester. Pada Polar NRZ, tegangan positif mewakili 1 dan negatif mewakili 0, tanpa kondisi netral. NRZ terbagi menjadi NRZ-L, di mana tegangan sesuai nilai biner, dan NRZ-I, di mana perubahan tegangan menandakan 1, sedangkan 0 tidak mengubah tegangan.</p>
+                                                        <center><img src="polar encoding.png" width="350" height="200" alt="polar encoding"/></center>
+                                                        <p>NRZ-L (Non-Return to Zero Level) adalah metode pengkodean yang menggunakan tegangan positif untuk merepresentasikan 1 dan tegangan negatif untuk 0. Pengkodean ini diterapkan pada standar RS-232 yang digunakan dalam konektor DB-25, seperti pada printer dot matrix.</p>
+                                                        <center><img src="polar 2.png" width="350" height="200" alt="polar 2"/></center>
+                                                        <p>NRZ-I (Non-Return to Zero Inverted) adalah metode pengkodean yang menentukan data berdasarkan transisi tegangan. Jika terjadi perubahan tegangan, data direpresentasikan sebagai 1, sedangkan jika tidak ada perubahan, data direpresentasikan sebagai 0 (atau sebaliknya, tergantung standar). NRZ-I digunakan dalam protokol USB, yang umum ditemukan pada laptop, ponsel, dan printer.</p>
+                                                        <center><img src="polar 3.png" width="350" height="200" alt="polar 3"/></center>
+                                                        <p>Return to Zero (RZ) adalah metode pengkodean yang mengatasi kelemahan NRZ dalam sinkronisasi data. RZ menggunakan tiga level tegangan: positif untuk 1, negatif untuk 0, dan nol sebagai transisi antar sinyal. Pengkodean ini banyak digunakan dalam komunikasi optik, seperti infrared.</p>
+                                                        <center><img src="polar 4.png" width="350" height="200" alt="polar 4"/></center>
+
+                                                    <li>Bipolar Encoding</li>
+                                                        <p>Bipolar Encoding adalah metode pengkodean yang menggunakan tiga tingkat tegangan: positif, negatif, dan nol. Tegangan nol merepresentasikan 0, sementara 1 direpresentasikan secara bergantian dengan tegangan positif atau negatif</p>
+                                                        <center><img src="bipolar.png" width="350" height="200" alt="bipolar"/></center>
+                                                </ol>
+
+                                            <li><p>Konversi Analog ke Digital</p></li>
+                                                <p>Untuk mentransmisikan data analog dalam bentuk digital, digunakan teknik modulasi, salah satunya Pulse Code Modulation (PCM). PCM mengubah gelombang analog menjadi data digital melalui tiga langkah utama: Sampling, Kuantisasi, dan Pengkodean.</p>
+
+                                                <ol type="a">
+                                                    <li>Sampling</li>
+                                                        <p>Sampling dalam konversi sinyal analog ke digital dilakukan pada interval waktu tertentu. Menurut Teorema Nyquist, sampling rate harus minimal dua kali frekuensi tertinggi dari sinyal agar dapat direkonstruksi dengan baik. Sebagai contoh, rentang pendengaran manusia 20 Hz – 20 kHz memerlukan sampling rate 40 kHz. Dalam aplikasi nyata: Telepon menggunakan sampling rate 8 kHz (8.000 sampel per detik). Compact Disc Audio (CDA) menggunakan 44.1 kHz, menghasilkan kualitas suara mendekati aslinya.</p>
+                                                        <center><img src="sampling 1.png" width="350" height="200" alt="sampling 1"/></center>
+                                                    <li>Kuantisasi</li>
+                                                        <p>Kuantisasi adalah proses untuk memberikan besaran satuan angka dari amplitudo data diskret hasil sampling.</p>
+                                                        <center><img src="Kuantisasi.png" width="350" height="200" alt="kuantisasi"/></center>
+                                                    <li>Pengkodean</li>
+                                                        <p>Hasil kuantisasi selanjutnya dikodekan menjadi format digit biner.</p>
+                                                        <center><img src="pengkodean .png" width="350" height="200" alt="pengkodean"/></center>
+                                                </ol>
+
+                                            <li><p>Mode Transmisi</p></li>
+                                                <p>Data digital dapat ditransmisikan dengan dua mode yaitu paralel dan serial.</p>
+                                            
+                                                <ol type="a">
+                                                    <li>Transmisi Paralel</li>
+                                                        <p>adalah transmisi yang dilakukan dengan membentuk sinyal digital dalam panjang yang tetap (fixed). Transmisi paralel memiliki keunggulan kecepatan pengiriman, namun memiliki kelemahan dengan banyaknya jalur yang harus dibuat.</p>
+                                                    <li>Transmisi Serial</li>
+                                                        <p>adalah transmisi sinyal digital melalui jalur tunggal secara berurutan dalam bentuk antrian. Transmisi serial dapat dilakukan dengan cara sinkron atau asinkron, Transmisi digital serial asinkron menggunakan cara pengiriman tanpa memperhatikan timing namun menggunakan pola (pattern) pada bit data. Transmisi digital serial sinkron menggunakan cara pengiriman yang serentak. Keunggulan dari transmisi serial sinkron ini adalah kecepatannya yang tinggi dan tidak memiliki overhead karena penanda awal (header) dan penanda akhir (footer) dari bit data seperti pada transmisi asinkron. </p>
+                                                </ol>
+                                        </ol>
+                                    </ul>
+                                    
+                                    <li>Transmisi Analog</li>
+                                        <p>Transmisi analog adalah proses pengiriman data secara analog. Data yang akan dikirimkan dapat berupa data analog atau digital. Data analog tidak dapat langsung dikirimkan, data ini harus diubah menjadi sinyal analog agar dapat ditransmisikan. Sedangkan untuk data digital juga harus diubah menjadi sinyal analog agar dapat dikirimkan.</p>
+
+                                    <ul>
+                                        <ol type="1">
+                                            <li>Konversi Data Digital ke Sinyal Analog</li>
+                                                <p>Sinyal analog adalah sinyal yang memiliki amplitudo, frekuensi, dan fase, sehingga konversi data digital ke analog dapat dilakukan dengan tiga cara ini, yaitu: Amplitude Shift Keying, Frequency Shift Keying, dan Phase Shift Keying. </p>
+
+                                                <ol type="a">
+                                                    <li>Amplitude Shift Keying</li>
+                                                        <p>Amplitude Shift Keying menggunakan mekanisme mengubah digit biner menjadi amplitudo pada sinyal pembawa analog (analog carrier signal).</p>
+                                                        <center><img src="amplitude.png" width="350" height="200" alt="amplitude"/></center>
+                                                    <li>Frequency Shift Keying</li>
+                                                        <p>Frequency Shift Keying adalah penciptaan sinyal analog menggunakan mekanisme perubahan frekuensi pada sinyal pembawa analog (analog carrier signal).</p>
+                                                        <center><img src="frequensi.png" width="350" height="200" alt="frequensi"/></center>
+                                                    <li>Phase Shift Keying</li>
+                                                        <p>Phase Shift Keying adalah penciptaan sinyal analog menggunakan mekanisme perubahan fase pada sinyal pembawa analog (analog carrier signal).</p>
+                                                        <center><img src="phase.png" width="350" height="200" alt="phase"/></center>
+                                                </ol>
+
+                                            <li>Konversi Data Analog ke Sinyal Analog</li>
+                                                <p>Agar dapat dikirimkan secara analog data analog harus dimodifikasi menjadi sinyal analog. Modifikasi ini biasa disebut dengan modulasi analog. Konversi data analog menjadi sinyal analog dapat dilakukan dengan tiga cara, yaitu: Amplitude Modulation, Frequency Modulation, dan Phase Modulation.</p>
+
+                                                <ol type="a">
+                                                    <li>Amplitude Modulation</li>
+                                                        <p>Amplitude Modulation (AM) adalah teknik modulasi awal di mana amplitudo sinyal pembawa analog diubah sesuai dengan data analog yang akan ditransmisikan. proses ini dilakukan dengan mengalikan data analog dengan gelombang pembawa. Frekuensi data dan fase gelombang pembawa tetap, sedangkan amplitudo mencerminkan data yang dikirim. </p>
+                                                        <center><img src="modulation.png" width="350" height="200" alt="modulation"/></center>
+                                                    <li>Frequency Modulation</li>
+                                                        <p>Pada modulasi ini, frequency dari sinyal pembawa analog akan dimodifikasi sesuai dengan perubahan data analog. Amplitudo dan Fase dari gelombang modulasi tidak berubah. Keunggulan dari Frequency Modulation dibanding dengan modulasi lain adalah kualitas dari sinyal yang dihasilkan lebih baik dan memiliki derau noise yang lebih rendah.</p>
+                                                        <center><img src="freq modul.png" width="350" height="200" alt="freq modul"/></center>
+                                                    <li>Phase Modulation</li>
+                                                        <p>Pada modulasi ini, fase dari sinyal pembawa analog akan dimodifikasi sesuai dengan perubahan gelombang data analog. Amplitudo dan frekuensi dari gelombang modulasi tidak berubah. </p>
+                                                        <center><img src="phase modulation.png" width="350" height="200" alt="phase modulation"/></center>
+                                                </ol>
+                                        </ol>
+                                    </ul>
+                                </ol>
+                </ul></ul></ol> 
+                <p>
+                    <h2 id="akhir">ini adalah halaman terakhir</h2>
+                </p>
+        </body>
+    </html>            
+                
+                        
+                            
